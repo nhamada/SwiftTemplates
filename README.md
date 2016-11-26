@@ -8,3 +8,9 @@ Swift code templates for Xcode.
 ## Templates categories
 * Singleton
 * Protocol
+* Enumerations
+  * without raw value
+  * with raw value
+    * `Int`
+    * `UInt`
+    * `String`
