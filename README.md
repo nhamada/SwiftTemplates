@@ -6,7 +6,8 @@ Swift code templates for Xcode.
 2. Copy `*.xctemplate` directories to `~/Library/Developer/Xcode/Templates/Swift templates`
 
 ## Templates categories
-* Singleton
+* Class
+* Structure
 * Protocol
 * Enumerations
   * without raw value
@@ -14,3 +15,4 @@ Swift code templates for Xcode.
     * `Int`
     * `UInt`
     * `String`
+* Singleton
