@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>Protocol</string>
 	<key>SortOrder</key>
-	<string>2</string>
+	<string>3</string>
 	<key>DefaultCompletionName</key>
 	<string>MyProtocol</string>
 	<key>AllowedTypes</key>
