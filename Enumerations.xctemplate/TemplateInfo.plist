@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>Enumeration</string>
 	<key>SortOrder</key>
-	<string>20</string>
+	<string>4</string>
 	<key>DefaultCompletionName</key>
 	<string>MyEnum</string>
 	<key>AllowedTypes</key>
