@@ -9,7 +9,7 @@
 	<key>Summary</key>
 	<string>Singleton</string>
 	<key>SortOrder</key>
-	<string>20</string>
+	<string>10</string>
 	<key>DefaultCompletionName</key>
 	<string>MySingleton</string>
 	<key>AllowedTypes</key>
