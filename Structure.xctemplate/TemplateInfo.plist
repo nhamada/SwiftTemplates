@@ -5,19 +5,17 @@
 	<key>Kind</key>
 	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
 	<key>Description</key>
-	<string>Enumeration (Swift).</string>
+	<string>Structure (Swift).</string>
 	<key>Summary</key>
-	<string>Enumeration</string>
+	<string>Structure</string>
 	<key>SortOrder</key>
-	<string>20</string>
+	<string>1</string>
 	<key>DefaultCompletionName</key>
-	<string>MyEnum</string>
+	<string>File</string>
 	<key>AllowedTypes</key>
 	<array>
 		<string>public.swift-source</string>
 	</array>
-	<key>DefaultCompletionName</key>
-	<string>File</string>
 	<key>MainTemplateFile</key>
 	<string>___FILEBASENAME___.swift</string>
 	<key>Options</key>
@@ -28,13 +26,34 @@
 			<key>Required</key>
 			<true/>
 			<key>Name</key>
-			<string>Enumeration Name:</string>
+			<string>Structure:</string>
 			<key>Description</key>
-			<string>The name of the enumeration to create</string>
+			<string>The name of the structure to create</string>
 			<key>Type</key>
 			<string>text</string>
 			<key>NotPersisted</key>
 			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>rawValue</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Access Level:</string>
+			<key>Description</key>
+			<string>The access level of the structure to create.</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Internal</string>
+			<key>Values</key>
+			<array>
+				<string>Public</string>
+				<string>Internal</string>
+				<string>Fileprivate</string>
+				<string>Private</string>
+			</array>
 		</dict>
 	</array>
 </dict>
