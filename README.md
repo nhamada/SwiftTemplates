@@ -7,3 +7,4 @@ Swift code templates for Xcode.
 
 ## Templates categories
 * Singleton
+* Protocol
