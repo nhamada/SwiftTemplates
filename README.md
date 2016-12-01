@@ -17,6 +17,8 @@ Swift code templates for Xcode.
     * `UInt`
     * `String`
 * Extension
+* Option set
+  * Raw value is one of `Int8`, `Int16`, `Int32`, `Int64`
 
 ### Utilities
 * Singleton

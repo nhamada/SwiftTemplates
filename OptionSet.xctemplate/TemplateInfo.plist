@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Kind</key>
+	<string>Xcode.IDEFoundation.TextSubstitutionFileTemplateKind</string>
+	<key>Description</key>
+	<string>Option Set (Swift).</string>
+	<key>Summary</key>
+	<string>Option Set</string>
+	<key>SortOrder</key>
+	<string>6</string>
+	<key>DefaultCompletionName</key>
+	<string>File</string>
+	<key>AllowedTypes</key>
+	<array>
+		<string>public.swift-source</string>
+	</array>
+	<key>MainTemplateFile</key>
+	<string>___FILEBASENAME___.swift</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Name:</string>
+			<key>Description</key>
+			<string>The name of the option set to create</string>
+			<key>Type</key>
+			<string>text</string>
+			<key>NotPersisted</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>Identifier</key>
+			<string>rawValue</string>
+			<key>Required</key>
+			<true/>
+			<key>Name</key>
+			<string>Raw Value:</string>
+			<key>Description</key>
+			<string>Raw value type.</string>
+			<key>Type</key>
+			<string>popup</string>
+			<key>Default</key>
+			<string>Int32</string>
+			<key>Values</key>
+			<array>
+				<string>Int8</string>
+				<string>Int16</string>
+				<string>Int32</string>
+				<string>Int64</string>
+			</array>
+		</dict>
+	</array>
+</dict>
+</plist>
