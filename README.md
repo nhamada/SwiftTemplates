@@ -2,6 +2,13 @@
 Swift code templates for Xcode.
 
 ## How to Install
+### Using scripts
+1. Open terminal
+2. Run `install.sh`
+
+Or double-click `install.command` on Finder.
+
+### Manual
 1. Clone or download repository.
 2. Copy `*.xctemplate` directories to `~/Library/Developer/Xcode/Templates/Swift templates`
 
